@@ -1,0 +1,126 @@
+body {
+  background: url('./1.jpg') no-repeat;
+  background-size: cover; }
+
+strong {
+  font-weight: 500; }
+
+.title {
+  text-align: center; }
+.title h1 {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 100;
+  line-height: 50px; }
+.title p {
+  opacity: .8;
+  color: #fff;
+  font-size: 16px;
+  line-height: 25px; }
+
+.forms {
+  margin: 50px 0px;
+  padding: 0px 7.5%;
+  display: inline-block; }
+.forms .login {
+  float: left;
+  width: 40%;
+  margin-right: 5%; }
+.forms .login .social-login {
+  text-align: center; }
+.forms .login .social-login h3 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 30px; }
+.forms .login .social-login a {
+  outline: 0;
+  color: #fff;
+  display: inline-block;
+  margin: 5px;
+  padding: 18px 20px 18px 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  border-radius: 4px;
+  text-decoration: none; }
+.forms .login .social-login a:hover {
+  opacity: 0.6; }
+.forms .login .social-login a.face {
+  background: #4862a3; }
+.forms .login .social-login a.twitter {
+  background: #55acee; }
+.forms .login .social-login a.google {
+  background: #dd4b39; }
+.forms .login .social-login a i {
+  padding-right: 5px;
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 20px; }
+.forms .signup {
+  float: right;
+  width: 40%; }
+.forms .dets {
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 4px 4px 0 0; }
+.forms .dets h2 {
+  color: #555;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 10px; }
+.forms .dets p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #888;
+  line-height: 30px;
+  margin: 0 0  10px; }
+.forms .inputs {
+  background: #eeeeee;
+  padding: 30px 20px;
+  border-radius: 0 0 4px 4px; }
+.forms .inputs input {
+  width: 95%;
+  outline: none;
+  height: 50px;
+  margin-bottom: 15px;
+  padding: 0 2%;
+  background: #f8f8f8;
+  border: 3px solid #ddd;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #888;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  transition: all .3s; }
+.forms .inputs input:focus {
+  background: #fff; }
+.forms .inputs button {
+  height: 50px;
+  margin: 0;
+  padding: 0 20px;
+  background: #19b9e7;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #fff;
+  width: 95%;
+  border: 0;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  transition: all .3s; }
+
+@media (max-width: 768px) {
+  .forms {
+    padding: 0px 1%; }
+  .forms .login {
+    float: none;
+    width: 100%;
+    margin-bottom: 30px; }
+  .forms .signup {
+    float: none;
+    width: 100%; } }

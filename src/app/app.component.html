@@ -1,3 +1,24 @@
-<h1>
-  {{title}}
-</h1>
+<nav class="navbar navbar-light nav-pills navbar-toggleable-md bg-info">
+
+  <button
+    class="navbar-toggler navbar-toggler-right" type="button"
+    data-toggle="collapse" data-target="#collapseNav"
+    aria-controls="collapseNav"
+    aria-expanded="false" aria-label="Toggle Navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      <a routerLink="/" class="navbar-brand">Earmars</a>
+
+  <div class="collapse navbar-collapse" id="collapseNav">
+    <div class="navbar-nav mr-auto">
+      <a routerLink="/makeoffer" class="nav-item nav-link">Make offer</a>
+    </div> <!--navbar-nav -->
+    <form class="form-inline">
+      <a routerLink="/invite" class="nav-item nav-link">Invite friends</a>
+      <a routerLink="/signup" class="btn btn-success btn-sm mr-1">Login</a>
+      <a routerLink="/signup" class="btn btn-primary btn-sm mr-1">Register</a>
+    </form>
+  </div><!--collapse-->
+</nav>
+<router-outlet></router-outlet>
+
